@@ -22,19 +22,29 @@ module.exports = {
 
   // Autodesk Forge configuration
 
-  // this this callback URL when creating your client ID and secret
-  callbackURL: process.env.FORGE_CALLBACK_URL || 'http://localhost:3000/api/forge/callback/oauth',
-
   // set enviroment variables or hard-code here
   //credentials: {
   //  client_id: process.env.FORGE_CLIENT_ID || '<replace with your consumer key>',
   //  client_secret: process.env.FORGE_CLIENT_SECRET || '<replace with your consumer secret>',
   //},
 
+    // Desarrollo localmente
+  //  credentials: {
+  //      client_id: process.env.FORGE_CLIENT_ID || 'h3EN9MRvwuIzTE3rGW7AjbaUqXjKu8G0',
+  //    client_secret: process.env.FORGE_CLIENT_SECRET || 'qbFDeAL10RnA2A5z',
+  //},
+
+    //// this this callback URL when creating your client ID and secret
+    //callbackURL: process.env.FORGE_CALLBACK_URL || 'http://localhost:3000/api/forge/callback/oauth',
+
+    // Produccion Heroku
     credentials: {
-        client_id: process.env.FORGE_CLIENT_ID || 'h3EN9MRvwuIzTE3rGW7AjbaUqXjKu8G0',
-      client_secret: process.env.FORGE_CLIENT_SECRET || 'qbFDeAL10RnA2A5z',
-  },
+        client_id: process.env.FORGE_CLIENT_ID || 'lsX36nZDKsS5O844yIIOAaGJ8vODRqDQ',
+        client_secret: process.env.FORGE_CLIENT_SECRET || 'vYErFAmHvCQuUnrG',
+    },
+
+    // this this callback URL when creating your client ID and secret
+    callbackURL: process.env.FORGE_CALLBACK_URL || 'https://bim360-v-njs-vr.herokuapp.com/api/forge/callback/oauth',
 
   // Required scopes for your application on server-side
   scopeInternal: ['data:read','data:write','data:create','data:search'],

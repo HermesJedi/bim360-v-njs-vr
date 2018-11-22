@@ -1,0 +1,3 @@
+C:\Users\TBG\OneDrive - VIDECON\I+D\Autodesk Forge\bim360-v-njs-vr\obj\Debug\bim360-viewer-nodejs-visual.reports.njsprojAssemblyReference.cache
+C:\Users\TBG\OneDrive - VIDECON\I+D\Autodesk Forge\bim360-v-njs-vr\obj\Debug\bim360-viewer-nodejs-visual.reports.njsproj.CoreCompileInputs.cache
+C:\Users\TBG\OneDrive - VIDECON\I+D\Autodesk Forge\bim360-v-njs-vr\bin\Microsoft.NodejsTools.WebRole.dll
